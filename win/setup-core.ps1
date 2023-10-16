@@ -1,0 +1,12 @@
+choco install git
+choco install sysinternals
+choco install winmerge
+choco install notepadplusplus
+choco install python
+choco install wireshark
+choco install gnuwin32-coreutils.portable
+choco install greenshot
+choco install 7zip
+choco install winscp
+choco install putty
+choco install microsoft-windows-terminal
