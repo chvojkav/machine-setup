@@ -18,9 +18,9 @@ git config --global mergetool.prompt false
 git config --global mergetool.keepBackup false
 git config --global mergetool.keepTemporaries false
 
-git config --global mergetool.winmerge.cmd '"/c/Program\\ Files\\ \\(x86\\)/WinMerge/WinMergeU.exe" -u -e -dl \"Local\" -dr \"Remote\" $LOCAL $REMOTE $MERGED'
-git config --global mergetool.winmerge.name winmerge
-git config --global mergetool.winmerge.trustExitCode true
+# git config --global mergetool.winmerge.cmd '"/c/Program Files (x86)/WinMerge/WinMergeU.exe" -u -e -dl "Local" -dr "Remote" $LOCAL $REMOTE $MERGED'
+# git config --global mergetool.winmerge.name winmerge
+# git config --global mergetool.winmerge.trustExitCode true
 
 # Use name of local branch for remote by default
 git config --global push.autoSetupRemote true
