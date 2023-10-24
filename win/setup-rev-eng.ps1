@@ -1,9 +1,1 @@
-choco install apimonitor
-choco install explorersuite
-choco install dependencywalker
-choco install hxd
-choco install ida-free
-choco install regshot
-choco install reshack
-choco install systeminformer-nightlybuilds
-choco install x64dbg.portable
+choco install apimonitor explorersuite dependencywalker hxd ida-free regshot reshack systeminformer-nightlybuilds x64dbg.portable
