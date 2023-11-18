@@ -1,5 +1,6 @@
 git config --global user.name VChvojka
 git config --global user.email TODO@fill-this-in-lol.com
+git config --global core.autocrlf true
 
 # Setup my aliases
 git config --global alias.co checkout
