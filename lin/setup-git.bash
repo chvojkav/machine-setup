@@ -13,6 +13,7 @@ git config --global alias.ds "diff --stat"
 git config --global alias.dc "diff --cached"
 git config --global alias.dcs "dc --stat"
 git config --global alias.dsc "dc --stat"
+git config --global alias.ap "add -p"
 
 # Use winmerge for merging
 git config --global merge.tool vimdiff
