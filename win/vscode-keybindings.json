@@ -1,0 +1,242 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+u ctrl+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+u ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+u ctrl+s",
+        "command": "editor.action.transformToSnakecase"
+    },
+    {
+        "key": "ctrl+u ctrl+c",
+        "command": "editor.action.transformToCamelcase"
+    },
+    {
+        "key": "ctrl+u ctrl+p",
+        "command": "editor.action.transformToPascalcase"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+[",
+        "command": "-editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+k ctrl+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+]",
+        "command": "-editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "editor.foldAllExcept",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+-",
+        "command": "-editor.foldAllExcept",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-quickInput.nextSeparator",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.gotoNextFold"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "editor.gotoParentFold"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "editor.gotoPreviousFold"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-quickInput.previousSeparator",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-quickInput.acceptInBackground",
+        "when": "cursorAtEndOfQuickInputBox && inQuickInput && quickInputType == 'quickPick' || inQuickInput && !inputFocus && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "cursorWordPartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "cursorWordPartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-cursorWordAccessibilityLeft",
+        "when": "accessibilityModeEnabled && isWindows && textInputFocus && focusedView == 'workbench.panel.output'"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-cursorWordAccessibilityLeftSelect",
+        "when": "accessibilityModeEnabled && isWindows && textInputFocus && focusedView == 'workbench.panel.output'"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-cursorWordAccessibilityRight",
+        "when": "accessibilityModeEnabled && isWindows && textInputFocus && focusedView == 'workbench.panel.output'"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-cursorWordAccessibilityRightSelect",
+        "when": "accessibilityModeEnabled && isWindows && textInputFocus && focusedView == 'workbench.panel.output'"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-cursorWordEndRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-cursorWordEndRightSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-cursorWordLeftSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    }
+]
