@@ -14,6 +14,7 @@ git config --global alias.dc "diff --cached"
 git config --global alias.dcs "dc --stat"
 git config --global alias.dsc "dc --stat"
 git config --global alias.ap "add -p"
+git config --global alias.head "log HEAD^..HEAD"
 
 # Use winmerge for merging
 git config --global merge.tool winmerge
