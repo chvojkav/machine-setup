@@ -25,3 +25,6 @@ git config --global push.autoSetupRemote true
 git config --global push.default current
 git config --global pull.autoSetupRemote true
 git config --global pull.default current
+
+git config --global core.editor "vim"
+
