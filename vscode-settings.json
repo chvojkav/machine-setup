@@ -1,0 +1,40 @@
+{
+    "cSpell.words": [
+        "Debugf",
+        "Linef",
+    ],
+    "cSpell.languageSettings": [
+        { "languageId": "*", "locale": "en", "dictionaries": ["wordsEn"] },
+        { "languageId": "*", "locale": "en-US", "dictionaries": ["wordsEn"] },
+        { "languageId": "*", "locale": "en-GB", "dictionaries": ["wordsEnGb"] },
+        { "languageId": "*", "dictionaries": ["companies", "softwareTerms", "misc"] },
+    ],
+    "cSpell.dictionaries": [
+        "wordsEnGb"
+    ],
+    "workbench.colorCustomizations": {
+        "contrastActiveBorder": "#aa0000",
+        "editor.lineHighlightBorder": "#a0808060",
+        "editor.lineHighlightBackground": "#a0808030",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editor.wordHighlightBackground":"#676767b8"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "heading.1.markdown entity.name.section.markdown, heading.1.markdown punctuation.definition.heading.markdown",
+                "settings": {
+                    "foreground": "#9cecfb",
+                    "fontStyle": "bold",
+                }
+            },
+            {
+                "scope": "heading.2.markdown entity.name.section.markdown, heading.2.markdown punctuation.definition.heading.markdown",
+                "settings": {
+                    "foreground": "#a384d4",
+                }
+            }
+        ]
+    },
+    "explorer.autoReveal": false
+}
