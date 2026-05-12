@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ "$1" == "0000000000000000000000000000000000000000" ]]; then
+    dirs=(.vscode)
+
+    for dir in "${dirs[@]}"; do
+        cp -rl "$NEST/$dir" "$(pwd)/$dir"
+    done
+    
+    echo "namespace: chvojka-vojtech" > "$(pwd)/kube.yml"
+    echo "branch: devel" > "$(pwd)/kube.yml"
+fi
