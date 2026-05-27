@@ -1,0 +1,19 @@
+#!/bin/bash
+PYCHARM_CONFIG=$(ls -d "$HOME/.config/JetBrains/PyCharm"* 2>/dev/null | tail -1)
+REPO="$HOME/src/machine-setup"
+
+if [ ! -d "$REPO" ]; then
+    echo "ERROR: machine-setup repo not found at $REPO"
+    exit 1
+fi
+
+if [ -z "$PYCHARM_CONFIG" ]; then
+    echo "ERROR: PyCharm config directory not found."
+    exit 1
+fi
+
+mkdir -p "$PYCHARM_CONFIG/options" "$PYCHARM_CONFIG/codestyles" "$PYCHARM_CONFIG/keymaps"
+
+ln -sf "$REPO/pycharm/options/editor.xml"       "$PYCHARM_CONFIG/options/editor.xml"
+ln -sf "$REPO/pycharm/codestyles/Default.xml"   "$PYCHARM_CONFIG/codestyles/Default.xml"
+ln -sf "$REPO/pycharm/keymaps/Default.xml"      "$PYCHARM_CONFIG/keymaps/Default.xml"

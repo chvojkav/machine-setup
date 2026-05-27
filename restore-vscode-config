@@ -1,0 +1,22 @@
+#!/bin/bash
+VSCODE_CONFIG="$HOME/.config/Code/User"
+REPO="$HOME/src/machine-setup"
+
+if [ ! -d "$REPO" ]; then
+    echo "ERROR: machine-setup repo not found at $REPO"
+    exit 1
+fi
+
+if [ ! -d "$VSCODE_CONFIG" ]; then
+    echo "ERROR: VSCode config directory not found at $VSCODE_CONFIG."
+    exit 1
+fi
+
+ln -sf "$REPO/vscode/settings.json"             "$VSCODE_CONFIG/settings.json"
+ln -sf "$REPO/vscode/keybindings.json"          "$VSCODE_CONFIG/keybindings.json"
+
+rm -rf "$VSCODE_CONFIG/snippets"
+ln -s  "$REPO/vscode/snippets"                  "$VSCODE_CONFIG/snippets"
+
+cat "$REPO/vscode/extensions.txt" | xargs -L 1 code --install-extension
+
