@@ -1,0 +1,9 @@
+<code_scheme name="Default" version="173">
+  <codeStyleSettings language="Markdown">
+    <option name="RIGHT_MARGIN" value="80" />
+    <option name="WRAP_ON_TYPING" value="1" />
+  </codeStyleSettings>
+  <codeStyleSettings language="Python">
+    <option name="RIGHT_MARGIN" value="97" />
+  </codeStyleSettings>
+</code_scheme>

@@ -1,0 +1,30 @@
+<keymap version="1" name="VSCode (Migrated)" parent="VSCode">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl f3" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+</keymap>
