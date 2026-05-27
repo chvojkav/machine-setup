@@ -17,3 +17,5 @@ mkdir -p "$PYCHARM_CONFIG/options" "$PYCHARM_CONFIG/codestyles" "$PYCHARM_CONFIG
 ln -sf "$REPO/pycharm/options/editor.xml"       "$PYCHARM_CONFIG/options/editor.xml"
 ln -sf "$REPO/pycharm/codestyles/Default.xml"   "$PYCHARM_CONFIG/codestyles/Default.xml"
 ln -sf "$REPO/pycharm/keymaps/Default.xml"      "$PYCHARM_CONFIG/keymaps/Default.xml"
+
+echo "WARNING: pluggins are not installed autimatically. Check $REPO/pycharm/plugins.txt"
