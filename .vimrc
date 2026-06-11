@@ -65,3 +65,9 @@ set undodir=~/.vim/undo//
 if !isdirectory($HOME . '/.vim/undo')
   call mkdir($HOME . '/.vim/undo', 'p')
 endif
+
+" Shift navigation one key right
+noremap j h
+noremap k j
+noremap l k
+noremap ; l
