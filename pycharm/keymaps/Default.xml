@@ -16,9 +16,10 @@
   </action>
   <action id="Compare.SameVersion" />
   <action id="EditorDecreaseFontSize" />
-  <action id="EditorDuplicateLines">
+  <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="EditorDuplicateLines" />
   <action id="EditorIncreaseFontSize" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
